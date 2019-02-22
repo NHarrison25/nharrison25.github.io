@@ -22,11 +22,11 @@ body.homebody {
   font-weight: bold;
   padding: 5px;
   margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar ul {
   border-style: solid;
   padding: 15px;
-  background-color: lightgray;
 }
 .navbar li a.currentpage {
   text-decoration: underline;
@@ -35,8 +35,14 @@ body.homebody {
   text-decoration: none;
   color: black;
 }
-body {
+.bodytext {
   font-family: Arial, Helvetica, sans-serif;
+  min-width: 25%;
+  max-width: 75%;
+  padding-left: 15%;
+}
+p {
+  padding-left: 5px;
 }
 h1 {
   text-transform: uppercase;
@@ -46,9 +52,7 @@ h2 {
   text-decoration: underline;
   margin: 10px;
 }
-h3 {
-  font-style: italic;
-}
-.aboutbody ul {
-  padding-left: 15px;
+.headerimage {
+  position: relative;
+  left: 35%;
 }
