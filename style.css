@@ -35,7 +35,7 @@ body {
   border-style: solid;
   padding: 15px;
 }
-.navbar li a.currentpage {
+.navbar li a.currentPage {
   text-decoration: underline;
 }
 .navbar li a {
@@ -65,6 +65,9 @@ h2 {
 }
 h3 {
   padding-left: 25px;
+}
+#aboutMe {
+  padding-top: 15px;
 }
 #portrait {
   display: flex;
