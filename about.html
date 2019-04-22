@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Written by Nicholas Harrison -->
+<!-- 
+Written by Nicholas Harrison
+Code makes up the "About Me" page of the website.
+Credit: https://www.w3schools.com/html/default.asp
+-->
 
   <head>
     <meta charset="UTF-8">
@@ -9,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="navbar" class="nothome">
+    <div class="navbar nothome">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" class="currentPage">About Me</a></li>
@@ -19,14 +23,18 @@
       <div class="bodytext">
         <img src="./images/nicholas-harrison.jpg" alt="Me at Naples Beach" id="portrait">
         <canvas id="aboutMe" width="250" height="100"></canvas>
-        <script>var c = document.getElementById("aboutMe");
-        var ctx = c.getContext("2d");
-        ctx.font = "45px Arial";
-        var gradient = ctx.createLinearGradient(0, 0, 150, 100);
-        gradient.addColorStop(0, "rgb(246, 143, 38)");
-        gradient.addColorStop(1, "rgb(127, 176, 183)");
-        ctx.fillStyle = gradient;
-        ctx.fillText("About Me", 10, 50);
+        
+        <!--Applies a linear gradient and styles the canvas created above.-->
+        
+        <script>
+          var f = document.getElementById("aboutMe");
+          var fx = f.getContext("2d");
+          fx.font = "45px Arial";
+          var gradient = fx.createLinearGradient(0, 0, 150, 100);
+          gradient.addColorStop(0, "rgb(246, 143, 38)");
+          gradient.addColorStop(1, "rgb(127, 176, 183)");
+          fx.fillStyle = gradient;
+          fx.fillText("About Me", 10, 50);
         </script>
         <h2>My Story</h2>
         <p>My name is Nicholas Harrison. I was born in Texas, but I have lived in sunny Naples, Florida for nearly 15 years now. I am currently pursuing a Bachelor of Science in Software Engineering at Florida Gulf Coast University (FGCU).
@@ -42,17 +50,19 @@
         </ul>
         <h3>Relevant Courses</h3>
         <ul>
-          <li>COP 1500 - Intro to Computer Science</li>
-          <ul>
-            <li>Introducing basic concept of computing: discrete models, computer architecture and organization, operating systems, programming languages, software design and construction, performance evaluation, with a focus on programming.</li>
-          </ul>
+          <li>COP 1500 - Intro to Computer Science
+            <ul>
+              <li>Introducing basic concept of computing: discrete models, computer architecture and organization, operating systems, programming languages, software design and construction, performance evaluation, with a focus on programming.</li>
+            </ul>
+          </li>
         </ul>
         <h3>Awards & Accomlishments</h3>
         <ul>
-          <li>Florida Gulf Coast University - Dean's List</li>
-          <ul>
-            <li>Fall 2017 - Fall 2018</li>
-          </ul>
+          <li>Florida Gulf Coast University - Dean's List
+            <ul>
+              <li>Fall 2017 - Fall 2018</li>
+            </ul>
+          </li>
         </ul>
         <h2>Chosen Work Samples</h2>
         <ul>
