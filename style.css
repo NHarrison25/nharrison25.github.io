@@ -10,13 +10,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-size: 48pt;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-color: white;
 }
 .navbar {
   background: url(images/navbar-bg.jpg) no-repeat center center;
@@ -44,13 +37,13 @@ body {
 }
 .bodytext {
   font-family: Arial, Helvetica, sans-serif;
-  color: #324343;
+  color: #324342;
   min-width: 25%;
   max-width: 75%;
   padding-left: 15%;
 }
 li a {
-  color: #324343;
+  color: #324342;
 }
 p {
   padding-left: 5px;
