@@ -44,13 +44,13 @@ body {
 }
 .bodytext {
   font-family: Arial, Helvetica, sans-serif;
-  color: #597076;
+  color: #324343;
   min-width: 25%;
   max-width: 75%;
   padding-left: 15%;
 }
 li a {
-  color: #597076;
+  color: #324343;
 }
 p {
   padding-left: 5px;
