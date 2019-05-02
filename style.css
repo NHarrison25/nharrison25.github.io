@@ -16,6 +16,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#portrait {
+  padding-left: 10px;
+}
 .navbar {
   background: url(images/navbar-bg.jpg) no-repeat center center;
   background-size: cover;
