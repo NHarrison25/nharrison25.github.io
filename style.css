@@ -18,6 +18,7 @@ body {
 }
 #portrait {
   padding-left: 10px;
+  padding-top: 20%;
 }
 .navbar {
   background: url(images/navbar-bg.jpg) no-repeat center center;
